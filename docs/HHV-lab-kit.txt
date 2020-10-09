@@ -1,0 +1,66 @@
+BSidesDFW 2020 HHV
+lab kit
+
+Items in Kit
+------------
+2x Custom PCB Strip Board THT P=2.54mm plus various SMD pads
+1x PCB Peg Board THT P=2.54mm
+1x Arduino Nano v3 Development Board
+1x Adafruit Trinket M0 Circuit Python Development Board
+1x USB Tester/Safety Dongle
+1x Battery Holder with lead wires AAAx3
+1x Battery Holder with lead wires 9Vx1
+6x Copper Wire 20AWG Solid 4 Inch length various colors
+Stickers!!!
+Large Component Static Bag Containing:
+------------
+10x THT Resistor 22 Ohms
+10x THT Resistor 47 Ohms
+10x THT Resistor 100 Ohms
+10x THT Resistor 220 Ohms
+10x THT Resistor 470 Ohms
+10x THT Resistor 1K Ohms
+10x THT Resistor 10K Ohms
+10x THT Resistor 22K Ohms
+2x THT Header Pins P=2.54mm Male 1x40 Breakaway
+2x THT Header Pins P=2.54mm Female 1x15
+2x THT Header Pins P=2.54mm Female 1x5
+1x THT Screw Terminal P=2.54mm 1x2
+1x THT Toggle Switch SPDT On-On
+5x THT Tactile Switch SPST
+1x SMD USB Micro B Receptacle 5 pin
+Small Component Static Bag #1 Containing:
+------------
+2x THT 5mm LED Red
+2x THT 5mm LED Green
+2x THT 5mm LED Blue
+2x THT 5mm LED Yellow
+2x THT 5mm LED White
+1x THT 5mm LED RGB Common Cathode
+1x THT 8mm LED Neopixel LED APA106
+1x SMD 5050 Neopixel LED WS2812B (mounted on tiny PCB)
+6x SMD 5050 Neopixel LED WS2812B (mounted on 2 strips of 3)
+2x SMD 1206 LED Red
+2x SMD 1206 LED Green
+2x SMD 0805 LED Red
+2x SMD 0805 LED Green
+2x SMD 0603 LED Red
+2x SMD 0603 LED Green
+Small Component Static Bag #2 Containing:
+------------
+1x THT PhotoResistor 100-200K Ohms
+2x THT Aluminum Electrolytic Radial Capacitor 220 uF 
+2x THT Aluminum Electrolytic Radial Capacitor 100 uF 
+2x THT Aluminum Electrolytic Radial Capacitor 10 uF 
+2x THT Aluminum Electrolytic Radial Capacitor 1 uF 
+2x THT Ceramic Disc Capacitor 100 nF
+1x SMD SOP16 CH552G MicroController
+2x SMD 1206 Resistor 10K Ohms
+2x SMD 1206 Resistor 330 Ohms
+2x SMD 1206 Resistor 220 Ohms
+2x SMD 0805 Resistor 10K Ohms
+2x SMD 0805 Resistor 330 Ohms
+2x SMD 0805 Resistor 220 Ohms 
+2x SMD 0603 Resistor 220 Ohms
+2x SMD 1206 Multilayer Ceramic Capacitor 100 nF
+2x SMD 0805 Multilayer Ceramic Capacitor 100 nF
