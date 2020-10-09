@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:HHV2020-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -32,7 +33,7 @@ F 0 "R1" V 5800 3550 50  0000 C CNN
 F 1 "R_Axial" V 5700 3550 50  0000 C CNN
 F 2 "0_local:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5430 3550 50  0001 C CNN
 F 3 "~" H 5500 3550 50  0001 C CNN
-F 4 "220 Ohms" V 5600 3550 39  0000 C CNN "Resistance"
+F 4 "100 Ohms" V 5600 3550 39  0000 C CNN "Resistance"
 	1    5500 3550
 	0    -1   -1   0   
 $EndComp
