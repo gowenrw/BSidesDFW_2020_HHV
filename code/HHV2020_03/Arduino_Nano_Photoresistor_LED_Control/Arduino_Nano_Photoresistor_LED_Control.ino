@@ -31,10 +31,10 @@ void setup()
 void loop()
 {
   // Set Delay Time [in ms]
-  int DelayTime = 50;
+  int DelayTime = 100;
 
   // Set the Photoresistor Threshold
-  int pthr = 25;
+  int pthr = 30;
 
   // Record the Photoresistor Value
   pval = analogRead(PR1);

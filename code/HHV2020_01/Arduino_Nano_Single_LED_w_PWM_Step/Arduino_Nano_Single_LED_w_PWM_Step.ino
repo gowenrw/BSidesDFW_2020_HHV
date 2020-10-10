@@ -29,7 +29,7 @@ void setup()
 void loop()
 {
   // Set Delay Time [in ms]
-  int DelayTime = 50;
+  int DelayTime = 100;
 
   // Step Value Array
   int StepValue[10] = {0, 50, 100, 150, 200, 255, 200, 150, 100, 50};
@@ -40,7 +40,7 @@ void loop()
 
   // Print current LED value to serial console for troubleshooting
   Serial.print(" LED_VALUE=");
-  Serial.println(i);
+  Serial.println(StepValue[step]);
 
   // Increment the Step Counter
   step = step + 1;

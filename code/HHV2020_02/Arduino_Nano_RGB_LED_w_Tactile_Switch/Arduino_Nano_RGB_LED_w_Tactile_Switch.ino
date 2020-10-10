@@ -35,7 +35,7 @@ void setup()
 void loop()
 {
   // Set Delay for each transition of main loop [in ms]
-  int DelayTime = 50;
+  int DelayTime = 100;
 
   // Color Settings in R,G,B Binary Values
   // 0     1   2      3     4    5    6

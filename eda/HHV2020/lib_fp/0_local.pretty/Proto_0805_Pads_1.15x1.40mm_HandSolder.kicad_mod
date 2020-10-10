@@ -1,4 +1,4 @@
-(module Proto_0805_Pads_1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5F381BF2)
+(module Proto_0805_Pads_1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5F81EDB7)
   (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
   (tags "LED handsolder")
   (attr smd)
@@ -27,9 +27,4 @@
   (pad 2 smd roundrect (at 1.025 0) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391))
   (pad 1 thru_hole circle (at -3.8 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 3.82 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/3d_models/LED_0805_2012Metric.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )
