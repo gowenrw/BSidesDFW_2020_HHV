@@ -42,4 +42,4 @@ I developed Arduino code for two different methods of controlling the LED using 
 * The first named Arduino_Nano_Single_LED_w_PWM_Fade will fade the LED between fully off and fully on including every state in between.
 * The second named Arduino_Nano_Single_LED_w_PWM_Step will step the LED between fully off and fully on using predefined value increments.
 
-This code is available in the [code section of this repository][../code/HHV2020_01/].
+This code is available in the [code section of this repository](/code/HHV2020_01/).
