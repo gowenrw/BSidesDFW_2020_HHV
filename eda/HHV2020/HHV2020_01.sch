@@ -2,11 +2,11 @@ EESchema Schematic File Version 4
 LIBS:HHV2020-cache
 EELAYER 29 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title "BSidesDFW 2020 HHV"
-Date "2020-10-08"
+Date "2020-10-09"
 Rev "1"
 Comp "Crafted by @alt_bier"
 Comment1 "Arduino Nano Single LED w/ PWM"

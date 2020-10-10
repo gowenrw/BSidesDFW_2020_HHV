@@ -2,11 +2,11 @@ EESchema Schematic File Version 4
 LIBS:HHV2020-cache
 EELAYER 29 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title "BSidesDFW 2020 HHV"
-Date "2020-10-08"
+Date "2020-10-09"
 Rev "1"
 Comp "Crafted by @alt_bier"
 Comment1 "Arduino Nano RGB LED w/ Tactile Switch"
@@ -160,5 +160,5 @@ Wire Wire Line
 	1250 5700 6150 5700
 Connection ~ 1250 4400
 Text Notes 5650 5250 0    50   ~ 0
-Pull Down Resistor\nEnsures D13 is at a LOW value\nUntil SW push brings it HIGH
+Pull Down Resistor\nEnsures D13 is at a LOW value\nUntil SW1 brings it HIGH
 $EndSCHEMATC
