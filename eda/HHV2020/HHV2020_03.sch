@@ -46,34 +46,34 @@ $EndComp
 $Comp
 L 0_local:R_Axial R6
 U 1 1 5F815864
-P 4850 3900
-F 0 "R6" V 5150 3900 50  0000 C CNN
-F 1 "R_Axial" V 5050 3900 50  0000 C CNN
-F 2 "0_local:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4780 3900 50  0001 C CNN
-F 3 "~" H 4850 3900 50  0001 C CNN
-F 4 "100 Ohms" V 4950 3900 39  0000 C CNN "Resistance"
-	1    4850 3900
+P 4850 4050
+F 0 "R6" V 5150 4050 50  0000 C CNN
+F 1 "R_Axial" V 5050 4050 50  0000 C CNN
+F 2 "0_local:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4780 4050 50  0001 C CNN
+F 3 "~" H 4850 4050 50  0001 C CNN
+F 4 "100 Ohms" V 4950 4050 39  0000 C CNN "Resistance"
+	1    4850 4050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L 0_local:LED_THT_5mm D3
 U 1 1 5F81586C
-P 3850 3900
-F 0 "D3" H 3850 4200 50  0000 C TNN
-F 1 "LED_THT_5mm" H 3850 4100 50  0000 C TNN
-F 2 "0_local:LED_D5.0mm-2" H 3850 3650 50  0001 C TNN
-F 3 "~" H 3850 3900 50  0001 C BNN
-F 4 "Anode (+)" H 3950 3950 39  0000 L BNN "Note1"
-F 5 "Cathode (-)" H 3750 3950 39  0000 R BNN "Note2"
-	1    3850 3900
+P 3850 4050
+F 0 "D3" H 3850 4350 50  0000 C TNN
+F 1 "LED_THT_5mm" H 3850 4250 50  0000 C TNN
+F 2 "0_local:LED_D5.0mm-2" H 3850 3800 50  0001 C TNN
+F 3 "~" H 3850 4050 50  0001 C BNN
+F 4 "Anode (+)" H 3950 4100 39  0000 L BNN "Note1"
+F 5 "Cathode (-)" H 3750 4100 39  0000 R BNN "Note2"
+	1    3850 4050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 3900 5000 3900
+	5300 4050 5000 4050
 Wire Wire Line
-	4700 3900 4000 3900
+	4700 4050 4000 4050
 Wire Wire Line
-	3700 3900 3200 3900
+	3700 4050 3200 4050
 $Comp
 L 0_local:R_PHOTO LDR1
 U 1 1 5F81BD9D
@@ -96,12 +96,9 @@ Wire Wire Line
 Wire Wire Line
 	6100 5700 3200 5700
 Wire Wire Line
-	3200 5700 3200 3900
+	3200 5700 3200 4050
 Wire Wire Line
 	5300 3000 3200 3000
-Wire Wire Line
-	3200 3000 3200 3900
-Connection ~ 3200 3900
 Wire Wire Line
 	8650 4200 8650 5050
 Wire Wire Line
@@ -113,4 +110,7 @@ Wire Wire Line
 	8650 5050 8650 5700
 Text Notes 5600 5250 0    50   ~ 0
 Pull Down Resistor\nEnsures A0 is at a LOW value\nUntil LDR1 brings it HIGH
+Connection ~ 3200 4050
+Wire Wire Line
+	3200 3000 3200 4050
 $EndSCHEMATC

@@ -9,8 +9,8 @@
 
 // Define Pins
 #define LED2_RED 4
-#define LED2_GREEN 5
-#define LED2_BLUE 6
+#define LED2_GREEN 6
+#define LED2_BLUE 7
 #define SW1 13
 
 // Define Variables

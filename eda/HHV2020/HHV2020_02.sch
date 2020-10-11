@@ -44,29 +44,29 @@ $EndComp
 $Comp
 L 0_local:R_Axial R?
 U 1 1 5F822C24
-P 4150 3900
+P 4150 4050
 AR Path="/5F80B86C/5F822C24" Ref="R?"  Part="1" 
 AR Path="/5F815E44/5F822C24" Ref="R3"  Part="1" 
-F 0 "R3" V 4450 3900 50  0000 C CNN
-F 1 "R_Axial" V 4350 3900 50  0000 C CNN
-F 2 "0_local:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4080 3900 50  0001 C CNN
-F 3 "~" H 4150 3900 50  0001 C CNN
-F 4 "220 Ohms" V 4250 3900 39  0000 C CNN "Resistance"
-	1    4150 3900
+F 0 "R3" V 4450 4050 50  0000 C CNN
+F 1 "R_Axial" V 4350 4050 50  0000 C CNN
+F 2 "0_local:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4080 4050 50  0001 C CNN
+F 3 "~" H 4150 4050 50  0001 C CNN
+F 4 "220 Ohms" V 4250 4050 39  0000 C CNN "Resistance"
+	1    4150 4050
 	-1   0    0    1   
 $EndComp
 $Comp
 L 0_local:R_Axial R?
 U 1 1 5F822EFE
-P 4650 3900
+P 4650 4150
 AR Path="/5F80B86C/5F822EFE" Ref="R?"  Part="1" 
 AR Path="/5F815E44/5F822EFE" Ref="R4"  Part="1" 
-F 0 "R4" V 4950 3900 50  0000 C CNN
-F 1 "R_Axial" V 4850 3900 50  0000 C CNN
-F 2 "0_local:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4580 3900 50  0001 C CNN
-F 3 "~" H 4650 3900 50  0001 C CNN
-F 4 "220 Ohms" V 4750 3900 39  0000 C CNN "Resistance"
-	1    4650 3900
+F 0 "R4" V 4950 4150 50  0000 C CNN
+F 1 "R_Axial" V 4850 4150 50  0000 C CNN
+F 2 "0_local:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4580 4150 50  0001 C CNN
+F 3 "~" H 4650 4150 50  0001 C CNN
+F 4 "220 Ohms" V 4750 4150 39  0000 C CNN "Resistance"
+	1    4650 4150
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -85,12 +85,6 @@ F 7 "Common Cathode (-)" H 2250 4350 39  0000 C CNN "Note4"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5350 3750 4650 3750
-Wire Wire Line
-	5350 3600 4150 3600
-Wire Wire Line
-	4150 3600 4150 3750
-Wire Wire Line
 	5350 3450 3650 3450
 Wire Wire Line
 	3650 3450 3650 3750
@@ -99,11 +93,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 4200 3000 4200
 Wire Wire Line
-	4150 4050 4150 4400
-Wire Wire Line
 	4150 4400 3000 4400
-Wire Wire Line
-	4650 4050 4650 4600
 Wire Wire Line
 	4650 4600 3000 4600
 $Comp
@@ -161,4 +151,16 @@ Wire Wire Line
 Connection ~ 1250 4400
 Text Notes 5650 5250 0    50   ~ 0
 Pull Down Resistor\nEnsures D13 is at a LOW value\nUntil SW1 brings it HIGH
+Wire Wire Line
+	5350 3900 4650 3900
+Wire Wire Line
+	4650 3900 4650 4000
+Wire Wire Line
+	5350 3750 4150 3750
+Wire Wire Line
+	4150 3750 4150 3900
+Wire Wire Line
+	4150 4400 4150 4200
+Wire Wire Line
+	4650 4600 4650 4300
 $EndSCHEMATC

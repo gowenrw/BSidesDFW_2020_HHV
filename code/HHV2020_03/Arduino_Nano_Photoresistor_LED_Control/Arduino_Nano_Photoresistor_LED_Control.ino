@@ -9,7 +9,7 @@
  * ************************** */
 
 // Define Pins
-#define LED3 7
+#define LED3 8
 #define PR1 A0
 
 // Define Variables
