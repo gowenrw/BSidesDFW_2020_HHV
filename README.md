@@ -8,10 +8,10 @@ This includes code and art and cad files.  All the things.
 This is the file structure of this repository
 
 * [/](/README.md) - YOU ARE HERE
-* [/art/](./art/) - Artwork and other graphics created by this project
-* [/code/](./code/) - All project related Code / Firmware
-* [/docs/](./docs/) - Documentation created by this project including web pages
+* [/art/](./art/) - Artwork and other graphics
+* [/code/](./code/) - All project related Code / Firmware including HHV Labs
+* [/docs/](./docs/) - Documentation including HHV Labs
 * [/eda/](./eda/) - Electronic Design Automation files (i.e. KiCad)
-* [/reference_parts/](./reference_parts/) - Documentation pulled from other sources related to components
+* [/reference_parts/](./reference_parts/) - Documentation pulled from other sources related to components included in the HHV Kit
 * [./README.md](/README.md) - This File
 * [./LICENSE](/LICENSE) - Currently set to MIT
