@@ -1,17 +1,18 @@
-# HHV2020_02
+# HHV2020_03
 
-This is HHV Lab 02.
+This is HHV Lab 03.
 
-This is part of the HHV video presentation "Development for Beginners" found on the [alt_bier_hacker YouTube channel](https://www.youtube.com/channel/UC986BzRchhp4fKb9zLjqvUA/).
+This is part of the HHV video presentation "Arduino Development for Beginners" found on the [alt_bier_hacker YouTube channel](https://www.youtube.com/channel/UC986BzRchhp4fKb9zLjqvUA/).
 
-In this Lab you will connect an RGB (Red, Green, Blue) Common Cathode LED and a Tactile Switch (Button) to digital pins on the Arduino Nano.
-Program the Arduino to light the LED and change its color when the Tactile Switch is pressed.
+In this Lab you will connect a Photoresistor and an LED to the Arduino Nano.
+Program the Arduino to light the LED based on the values from the Photoresistor.
+Read the Photoresistor values and convert them to luminosity values displayed in lumens.
 
 ## Schematic
 
 Here is a schematic of the circuit you will build for this Lab.
 
-[![HHV2020_02_Schematic](HHV2020_02_Schematic.JPG)](HHV2020_02_Schematic.pdf)
+[![HHV2020_03_Schematic](HHV2020_03_Schematic.JPG)](HHV2020_03_Schematic.pdf)
 
 ## Component Layout
 
@@ -33,4 +34,4 @@ I developed Arduino code for controlling the RGB LED by reading a signal from th
 
 * The code file is named Arduino_Nano_RGB_LED_w_Tactile_Switch.
 
-This code is available in the [code section of this repository](/code/HHV2020_02/).
+This code is available in the [code section of this repository](/code/HHV2020_03/).

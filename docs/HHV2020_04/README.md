@@ -2,7 +2,7 @@
 
 This is HHV Lab 02.
 
-This is part of the HHV video presentation "Development for Beginners" found on the [alt_bier_hacker YouTube channel](https://www.youtube.com/channel/UC986BzRchhp4fKb9zLjqvUA/).
+This is part of the HHV video presentation "Arduino Basics" found on the [alt_bier_hacker YouTube channel](https://www.youtube.com/channel/UC986BzRchhp4fKb9zLjqvUA/).
 
 In this Lab you will connect an RGB (Red, Green, Blue) Common Cathode LED and a Tactile Switch (Button) to digital pins on the Arduino Nano.
 Program the Arduino to light the LED and change its color when the Tactile Switch is pressed.

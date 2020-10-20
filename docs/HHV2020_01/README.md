@@ -2,7 +2,7 @@
 
 This is HHV Lab 01.
 
-This is part of the HHV video presentation "Arduino Basics" found on the [alt_bier_hacker YouTube channel](https://www.youtube.com/channel/UC986BzRchhp4fKb9zLjqvUA/).
+This is part of the HHV video presentation "Arduino Development for Beginners" found on the [alt_bier_hacker YouTube channel](https://www.youtube.com/channel/UC986BzRchhp4fKb9zLjqvUA/).
 
 In this Lab you will connect a single LED to a digital pin on the Arduino Nano that supports PWM (Pulse Width Modulation) and program it to fade and step through various values which affect the LED's brightness.
 

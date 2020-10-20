@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 4 4
+Sheet 4 6
 Title "BSidesDFW 2020 HHV"
 Date "2020-10-09"
 Rev "1"
@@ -21,6 +21,7 @@ P 5600 3600
 AR Path="/5F80B86C/5F812500" Ref="IC?"  Part="1" 
 AR Path="/5F815E44/5F812500" Ref="IC?"  Part="1" 
 AR Path="/5F8106E8/5F812500" Ref="IC1"  Part="1" 
+AR Path="/5F8CC739/5F812500" Ref="IC?"  Part="1" 
 F 0 "IC1" H 6075 4953 100 0000 C CNB
 F 1 "Arduino_Nano_v3.x" H 6075 4825 50  0000 C CNN
 F 2 "0_local:Arduino_Nano_WithMountingHoles" V 6250 2750 50  0001 L CNN
@@ -35,6 +36,7 @@ P 6250 5700
 AR Path="/5F80B86C/5F812542" Ref="R?"  Part="1" 
 AR Path="/5F815E44/5F812542" Ref="R?"  Part="1" 
 AR Path="/5F8106E8/5F812542" Ref="R7"  Part="1" 
+AR Path="/5F8CC739/5F812542" Ref="R?"  Part="1" 
 F 0 "R7" V 6550 5700 50  0000 C CNN
 F 1 "R_Axial" V 6450 5700 50  0000 C CNN
 F 2 "0_local:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6180 5700 50  0001 C CNN
@@ -47,6 +49,8 @@ $Comp
 L 0_local:R_Axial R6
 U 1 1 5F815864
 P 4850 4050
+AR Path="/5F8106E8/5F815864" Ref="R6"  Part="1" 
+AR Path="/5F8CC739/5F815864" Ref="R?"  Part="1" 
 F 0 "R6" V 5150 4050 50  0000 C CNN
 F 1 "R_Axial" V 5050 4050 50  0000 C CNN
 F 2 "0_local:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4780 4050 50  0001 C CNN
@@ -59,6 +63,8 @@ $Comp
 L 0_local:LED_THT_5mm D3
 U 1 1 5F81586C
 P 3850 4050
+AR Path="/5F8106E8/5F81586C" Ref="D3"  Part="1" 
+AR Path="/5F8CC739/5F81586C" Ref="D?"  Part="1" 
 F 0 "D3" H 3850 4350 50  0000 C TNN
 F 1 "LED_THT_5mm" H 3850 4250 50  0000 C TNN
 F 2 "0_local:LED_D5.0mm-2" H 3850 3800 50  0001 C TNN
@@ -78,6 +84,8 @@ $Comp
 L 0_local:R_PHOTO LDR1
 U 1 1 5F81BD9D
 P 7850 5050
+AR Path="/5F8106E8/5F81BD9D" Ref="LDR1"  Part="1" 
+AR Path="/5F8CC739/5F81BD9D" Ref="LDR?"  Part="1" 
 F 0 "LDR1" V 8057 5050 50  0000 C CNN
 F 1 "R_PHOTO" V 7966 5050 50  0000 C CNN
 F 2 "0_local:R_LDR_5.1x4.3mm_P3.4mm_Vertical" V 8000 4450 50  0001 L CNN
