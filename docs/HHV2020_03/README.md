@@ -20,18 +20,32 @@ You can build this circuit on a solderless breadboard.
 But, for the Lab we will be soldering it to the custom PCB strip board provided in the HHV kit.
 
 I have laid out the component placement using the custom PCB strip board.
-It does not use the power rails as I am reserving those for powering the Arduino or Trinket via battery.
+It does not use the power rails as I am reserving those for now.
 This is the component layout I have used:
 
-* TBD
+* Arduino Nano: I1-15 and K1-15
+* Resistor 100 Ohm: L5 and O5
+* LED: P5 (Anode) and Q5 (Cathode)
+* Jumper Wire: R5 and N12
+* Photoresistor: G2 and G4
+* Resistor 10K Ohm: B4 and F4
+* Jumper Wire: A4 and F14
 
 Here are images of the component layout I have used.
 
+![HHV2020_03_Snap1.JPG](HHV2020_03_Snap1.JPG)
+
+![HHV2020_03_Snap2.JPG](HHV2020_03_Snap2.JPG)
+
+![HHV2020_03_Snap3.JPG](HHV2020_03_Snap3.JPG)
 
 ## Arduino Code
 
-I developed Arduino code for controlling the RGB LED by reading a signal from the Tactile Switch and changing the color displayed when pushed.
+This lab will walk through several pieces of code designed to work with the circuit above.
 
-* The code file is named Arduino_Nano_RGB_LED_w_Tactile_Switch.
+* Arduino_Nano_Photoresistor_LED_Control
+    * This code will use the values read from the photoresistor to control the state of an LED turning it on in dark and off in light conditions.
+* Arduino_Nano_Photoresistor_Luminosity
+    * This code will read the raw photoresistor values and convert them to luminosity values in lumens.
 
 This code is available in the [code section of this repository](/code/HHV2020_03/).

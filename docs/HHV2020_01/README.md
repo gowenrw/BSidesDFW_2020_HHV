@@ -22,12 +22,14 @@ You can build this circuit on a solderless breadboard.
 But, for the Lab we will be soldering it to the custom PCB strip board provided in the HHV kit.
 
 I have laid out the component placement using the custom PCB strip board.
-It does not use the power rails as I am reserving those for powering the Arduino or Trinket via battery.
+It does not use the power rails as I am reserving those for now.
+
 This is the component layout I have used:
 
-* Resistor in M10 and O10
-* LED Anode in P10 and Cathode in Q10
-* Jumper Wire(s) between R10 and N12
+* Arduino Nano: I1-15 and K1-15
+* Resistor 100 Ohm: L10 and O10
+* LED: P10 (Anode) and Q10 (Cathode)
+* Jumper Wire: R10 and L12
 
 Here are images of the component layout I have used.
 
@@ -37,9 +39,13 @@ Here are images of the component layout I have used.
 
 ## Arduino Code
 
-I developed Arduino code for two different methods of controlling the LED using analog signals.
+This lab will walk through several pieces of code designed to work with the circuit above.
 
-* The first named Arduino_Nano_Single_LED_w_PWM_Fade will fade the LED between fully off and fully on including every state in between.
-* The second named Arduino_Nano_Single_LED_w_PWM_Step will step the LED between fully off and fully on using predefined value increments.
+* Arduino_Nano_Single_Blink
+    * This code will make the LED blink on and off.
+* Arduino_Nano_Single_LED_w_PWM_Fade
+    * This code will fade the LED between fully off and fully on including every state in between.
+* Arduino_Nano_Single_LED_w_PWM_Step
+    * This code will step the LED between fully off and fully on using predefined value increments.
 
 This code is available in the [code section of this repository](/code/HHV2020_01/).
