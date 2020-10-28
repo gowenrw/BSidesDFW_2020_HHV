@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 6
+Sheet 1 9
 Title "BSidesDFW 2020 HHV"
 Date "2020-10-09"
 Rev "1"
@@ -54,4 +54,28 @@ F1 "HHV2020_05.sch" 50
 $EndSheet
 Text Notes 750  3050 0    50   ~ 0
 Adafruit DotStar RGB LED and Touch Sensor
+$Sheet
+S 700  3450 1800 150 
+U 5F9342E9
+F0 "HHV2020_06.sch" 50
+F1 "HHV2020_06.sch" 50
+$EndSheet
+Text Notes 750  3550 0    50   ~ 0
+Arduino Nano Neopixels
+$Sheet
+S 700  3950 1800 150 
+U 5F93970E
+F0 "HHV2020_07.sch" 50
+F1 "HHV2020_07.sch" 50
+$EndSheet
+Text Notes 750  4050 0    50   ~ 0
+Adafruit Trinket Neopixels
+$Sheet
+S 700  4450 1800 150 
+U 5F98D88D
+F0 "HHV2020_08.sch" 50
+F1 "HHV2020_08.sch" 50
+$EndSheet
+Text Notes 750  4550 0    50   ~ 0
+Arduino Nano SMD LED
 $EndSCHEMATC

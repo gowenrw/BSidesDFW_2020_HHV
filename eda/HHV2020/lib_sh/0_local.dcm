@@ -126,6 +126,12 @@ K RGB LED NeoPixel addressable
 F https://www.adafruit.com/product/1734
 $ENDCMP
 #
+$CMP LED_NeoPixel_WS2812B
+D RGB LED with integrated controller
+K RGB LED NeoPixel addressable
+F https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+$ENDCMP
+#
 $CMP LED_RCBG_THT_5mm
 D RGB LED, red/cathode/blue/green
 K LED RGB diode

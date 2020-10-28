@@ -1,0 +1,51 @@
+/* Include the Adafruit NeoPixel library */
+#include <Adafruit_NeoPixel.h>
+
+/* DEFINE APA106 NEOPIXEL */
+#define LED6_PIN A1
+#define LED6_NUM 1
+
+/* DEFINE WS2812B NEOPIXEL STRIP */
+#define LED7_PIN 10
+#define LED7_NUM 3
+
+// Create NeoPixel objects
+Adafruit_NeoPixel LED6 = Adafruit_NeoPixel(LED6_NUM, LED6_PIN, NEO_RGB + NEO_KHZ800);
+Adafruit_NeoPixel LED7 = Adafruit_NeoPixel(LED7_NUM, LED7_PIN, NEO_GRB + NEO_KHZ800);
+
+void setup() {
+  // start the single neopixel and blank it out
+  LED6.begin();
+  LED6.show();
+  // start the neopixel strip and blank it out
+  LED7.begin();
+  LED7.show();
+}
+
+// MAIN LOOP
+void loop() {
+  // set pixel color and show with delay
+  LED6.setPixelColor(0, 255, 0, 0);
+  LED6.show();
+  LED7.setPixelColor(0, 255, 0, 0);
+  LED7.setPixelColor(1, 0, 255, 0);
+  LED7.setPixelColor(2, 0, 0, 255);
+  LED7.show();
+  delay(500);
+  // set pixel color and show with delay
+  LED6.setPixelColor(0, 0, 255, 0);
+  LED6.show();
+  LED7.setPixelColor(0, 0, 255, 0);
+  LED7.setPixelColor(1, 0, 0, 255);
+  LED7.setPixelColor(2, 255, 0, 0);
+  LED7.show();
+  delay(500);
+  // set pixel color and show with delay
+  LED6.setPixelColor(0, 0, 0, 255);
+  LED6.show();
+  LED7.setPixelColor(0, 0, 0, 255);
+  LED7.setPixelColor(1, 255, 0, 0);
+  LED7.setPixelColor(2, 0, 255, 0);
+  LED7.show();
+  delay(500);
+}

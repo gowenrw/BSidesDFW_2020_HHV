@@ -1,0 +1,31 @@
+/* Include the Adafruit NeoPixel library */
+#include <Adafruit_NeoPixel.h>
+
+/* DEFINE APA106 NEOPIXEL */
+#define LED6_PIN A1
+#define LED6_NUM 1
+
+// Create NeoPixel object
+Adafruit_NeoPixel LED6 = Adafruit_NeoPixel(LED6_NUM, LED6_PIN, NEO_RGB + NEO_KHZ800);
+
+void setup() {
+  // start the single neopixel and blank it out
+  LED6.begin();
+  LED6.show();
+}
+
+// MAIN LOOP
+void loop() {
+  // set pixel color and show with delay
+  LED6.setPixelColor(0, 255, 0, 0);
+  LED6.show();
+  delay(500);
+  // set pixel color and show with delay
+  LED6.setPixelColor(0, 0, 255, 0);
+  LED6.show();
+  delay(500);
+  // set pixel color and show with delay
+  LED6.setPixelColor(0, 0, 0, 255);
+  LED6.show();
+  delay(500);
+}
