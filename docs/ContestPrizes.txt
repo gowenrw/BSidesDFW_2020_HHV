@@ -1,0 +1,16 @@
+SPOILER: There will be 3 @BSidesDFW HHV 2020 Contests.  
+All contests will require photo submission to a web form for judgement.
+Each contest will have a single prize winner.
+
+Marathon: Build all the circuits from all 8 Labs and code the Nano to light all the LEDs its wired to. 
+Fastest sub with best quality wins.
+Prize: Pi4 4G Complete Kit https://amazon.com/gp/product/B07Z1QFLNH/ & my latest badge.
+
+Hacker: Hack together something cool using only the parts in the kit. 
+Coolest wins.
+Prize: ESP32 IOT Dev Kit https://amazon.com/gp/product/B075FRWH4S/ & my latest badge.
+
+N00b: Build something using the parts in the kit.
+Random draw wins.
+Prize: Multimeter https://amazon.com/gp/product/B07SHLS639/ & extras https://amazon.com/gp/product/B07SD3L9HR/ a Circuit Playground Express https://adafruit.com/product/3333 & my badge.
+
