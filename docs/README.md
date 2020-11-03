@@ -41,5 +41,5 @@ This repository contains code and diagrams and other resources related to those 
 * Electronics 101 [PPTX](Electronics-101-v1.pptx) [PDF](Electronics-101-v1.pdf)
 * Electronics Soldering Basics [PPTX](Electronics-Soldering-Basics-v1.pptx) [PDF](Electronics-Soldering-Basics-v1.pdf)
 * Intro to the CH552G Microcontroller [PPTX](Intro_to_the_CH552G_Microcontroller.pptx) [PDF](Intro_to_the_CH552G_Microcontroller.pdf)
-* aaa [PPTX](aaa.pptx) [PDF](aaa.pdf)
-* aaa [PPTX](aaa.pptx) [PDF](aaa.pdf)
+* Programming Firmware using SDCC [PPTX](Programming_Firmware_using_SDCC.pptx) [PDF](Programming_Firmware_using_SDCC.pdf)
+* PCB Design with KiCad [PPTX](PCB_Design_with_KiCad.pptx) [PDF](PCB_Design_with_KiCad.pdf)
